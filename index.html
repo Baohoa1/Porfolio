@@ -1,38 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Porfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>My Resume</title>
 </head>
-
 <body>
+    
+        <!-- Introduction -->
+        <section id="intro">               
+          <div class=" text-white px-4 py-5 text-center ">
+            <div class="py-5 border-top border-bottom">
+                <h1 class="display-1 fw-bold text-white">Hi, I'm Hoa.</h1>
+                <div class="col-lg-6 mx-auto">
+                  <p class="display-5 mb-4">A Graphic Designer</p>
+                </div>
+              </div>
+          </span>
+          </div>        
+        </section>
+    
+        <!-- Resume -->
+        <section id="resume">
+          <div class="container">
+            <div class="row flex-lg-row g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/profile-image.jpg" class="rounded-circle d-block mx-lg-auto img-fluid" alt="pro" width="600" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 mt-40">Education and work experiences</h1>
+                <p class="text-white lead">Hello, my name is Hoa. Back in Vietnam, I graduated with a College Degree In Graphic Design from RMIT University. I moved to Japan on April 1st, 2015, and enrolled in a Graphic Design degree at Shizuoka Design College in 2018. I officially graduated in 2021 and I’m currently working for a teabag packing company. 
+                  <br>
+                  <br>
+                  My main job is to design but I can also translate, and create, as well as do some photoshoots for my company’s website. Technically, I could do some coding but at the office, my main framework to create a website is to use WordPress and do some coding based on that framework.</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-  <!-- Introduction -->
-  <section id="intro">
+        <!-- Showcases -->
+        <section id="showcase">
+          <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/welcome.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">My Works</h1>
+                <span class="lead">
+                  <h3 class="text-white">Website Design: <br></h3>
+                  <a class="link-underline link-underline-opacity-0" href="https://kakuzen8.jp/">8 No-Ji Cookies Website</a>
+                  <br>
+                  <a class="link-underline link-underline-opacity-0" href="https://oem.wela.jp/">Wela Website</a>
+                  <h3 class="text-white">Translation (English, Vietnamese): <br></h3>
+                  <a class="pt-2 link-underline link-underline-opacity-0" href="https://shizu-pack.com/">Shizupack Website</a>
+                
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
 
-  </section>
+        <!-- Personal Interests -->
+        <section id="personal">
+          <div class="text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+              <h1 class="display-5 fw-bold text-white">About me</h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">I am really into video games and could play piano decent enough. I made my own meals and coffee every day. </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-  <!-- Resume -->
-  <section id="resume">
-
-  </section>
-
-  <!-- Showcases -->
-  <section id="showcase">
-
-  </section>
-
-  <!-- About -->
-  <section id="about">
-
-  </section>
-
-  <!-- contact -->
-  <section id="contact">
-
-  </section>
+        <!-- Contact Me -->
+        <section id="contact">
+          <div class="text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+              <h1 class="display-5 fw-bold text-white">Contact me</h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4"><button type="button" class="btn btn-outline-primary btn-lg"><a href="mailto:tramplove.17@gmail.com" class="link-underline link-underline-opacity-0" target="_blank">Email</a></button></p>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 </body>
-
 </html>

@@ -1,0 +1,40 @@
+html{
+    background-color: #242020;
+}
+
+#intro{
+    background-color: #242020;
+}
+
+#resume{
+    background-color: #242020;
+}
+
+#showcase{
+    background-color: #242020;
+}
+
+#personal{
+    background-color: #242020;
+}
+
+#contact{
+    background-color: #242020;
+}
+
+h1{
+    font-family: "Source Code Pro", monospace;
+    font-size: 67.5px;
+}
+
+p{
+    font-family: "Source Code Pro", monospace;
+    margin: 0;
+    font-size: 37.5px;
+}
+
+hr{
+    position: relative;
+    top: 30px;
+    width: 50%;
+}
